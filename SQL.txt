@@ -1,0 +1,32 @@
+---------------------------------------------
+---------------------------------------------
+https://remotemysql.com/dashboard.php
+ua4134@gmail.com
+sql55.
+
+Server: remotemysql.com
+Username: cecvsYhcHb
+Database name: cecvsYhcHb
+Password: M8UDYowfD8
+Port: 3306
+------------------------------------------------
+------------------------------------------------
+
+CREATE TABLE `crm`.`users` (
+  `id` VARCHAR(55) NOT NULL,
+  `password` VARCHAR(55) NOT NULL,
+  `name` VARCHAR(55) NOT NULL,
+  `surname` VARCHAR(55) NOT NULL,
+  `email` VARCHAR(55) NULL,
+  `phone` VARCHAR(55) NULL);
+
+------------------------------------------------
+
+Difference between Primary Key and Unique Key 
+
+Primary Key	Unique Key
+Unique identifier for rows of a table	Unique identifier for rows of a table when primary key is not present
+Cannot be NULL	Can be NULL
+Only one primary key can be present in a table	Multiple Unique Keys can be present in a table
+present in a table	present in a table
+Selection using primary key creates clustered index	Selection using unique key creates non-clustered index
